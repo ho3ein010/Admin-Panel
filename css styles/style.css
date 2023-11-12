@@ -1,7 +1,15 @@
+/*-------------------- Fonts --------------------*/
+
+@font-face {
+    font-family: secondary-font;
+    src: url(Font/TF2secondary.ttf);
+}
+
 /*-------------------- Original styles --------------------*/
 body {
     margin: 0;
     padding: 0;
+    font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
 }
 
 /*--------------------- General class ----------------------*/
