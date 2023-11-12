@@ -1,0 +1,85 @@
+
+
+/*------------------------- header -------------------------*/
+
+
+/*------------------------- aside -------------------------*/
+
+/* after */
+aside .list>ul>li a>p.submenu::after {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    transform: rotate(45deg);
+    border: 1px solid #677788;
+    border-right: 0;
+    border-top: 0;
+    transition: all 0.5s;
+
+}
+
+aside .list>ul>li:hover>a>p.submenu::after {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    transform: translatey(-5px) rotate(-45deg);
+    border: 1px solid #677788;
+    border-right: 0;
+    border-top: 0;
+}
+
+aside .list>ul>li>ul>li:hover>a>p.submenu::after {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    transform: translatey(-5px) rotate(-45deg);
+    border: 1px solid #677788;
+    border-right: 0;
+    border-top: 0;
+
+}
+
+/* before */
+aside .list>ul>li>a::before {}
+
+
+/* submenu-icon(dot)*/
+aside .list>ul>li>ul li>a::before {
+    display: inline-block;
+    content: "";
+    padding: 15px;
+    opacity: 0.3;
+    margin-left: 8px;
+    box-sizing: border-box;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%677788' xmlns='http://www.w3.org/2000/svg'><path fill-rule='%677788' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+
+/*------------------------- main --------------------------*/
+/*--------- Address-bar ----------*/
+
+/*--------- Profile-cover ---------*/
+
+/*--------- Menu-sections ---------*/
+
+/*--------- container-cards ---------*/
+
+/*----- Main-box-1 -----*/
+
+/* About-card */
+
+/* Overview-card */
+
+/*----- Main-box-2 -----*/
+
+/* ActivityTimeline-card */
+
+/* connections-card */
+
+/* teams-card */
+
+/* projects-card */
+
+/*------------------------- footer -------------------------*/

@@ -10,6 +10,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+    background-color: #F3F4F4;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /*--------------------- General class ----------------------*/
@@ -20,6 +32,161 @@ body {
 
 /*------------------------- aside -------------------------*/
 
+aside {
+    width: 262px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #d0d0d0;
+    background-color: #F3F4F4;
+}
+
+/* title-list */
+aside .title-list {
+    height: 64px;
+    margin: 0 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+aside .title-list a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+aside .title-list span {
+    margin: 0 5px 5px;
+    font-weight: 800;
+    font-size: 25px;
+    color: #5A8DEE;
+}
+
+aside .title-list input[type="radio"]{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* list */
+aside .list {
+    margin-right: 10px;
+    overflow-y: scroll;
+}
+
+/* scroll bar */
+aside .list::-webkit-scrollbar {
+    width: 13px;
+    background-color: transparent;
+}
+
+/* track */
+aside .list::-webkit-scrollbar-track {
+    border-radius: 0px;
+    width: 13px;
+    background-color: transparent;
+}
+
+/* thumb */
+aside .list::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    width: 0px;
+    background-color: transparent;
+}
+
+aside .list:hover::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    width: 1em;
+    background-color: #5A8DEE;
+}
+
+
+/* h6 */
+aside .list>h6 {
+    font-size: 13px;
+    color: #a0a7b2;
+    margin: 16px 0;
+    margin-right: 16px;
+}
+
+/* menu */
+aside .list ul {
+    width: 100%;
+}
+
+aside .list ul li {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 5px;
+    transition: all 0.3s;
+    height: 43px;
+    margin: 1px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+aside .list>ul li:hover {
+    height: min-content;
+}
+
+aside .list>ul>li {
+    padding: 6px 0px;
+    box-sizing: border-box;
+}
+
+aside .list>ul>li:hover {
+    background-color: #ECEDED;
+    padding: 6px 0px;
+}
+
+aside .list>ul>li ul li:hover {
+    background-color: #e2e2e2;
+}
+
+aside .list>ul>li ul li ul li:hover {
+    background-color: #d2d2d2;
+}
+
+aside .list>ul>li ul {
+    display: none;
+}
+
+aside .list>ul>li:hover>ul {
+    width: 100%;
+    display: inline-block;
+}
+
+aside .list>ul>li>ul>li:hover>ul {
+    width: 100%;
+    display: block;
+}
+
+/* a */
+aside .list>ul>li a {
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px 7px 15px;
+    box-sizing: border-box;
+    font-size: 13.6px;
+    font-weight: 700;
+    color: #677788;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* p */
+aside .list>ul>li a>p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
 
 /*------------------------- main --------------------------*/
 /*--------- Address-bar ----------*/
