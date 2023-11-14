@@ -20,5 +20,154 @@
 /*--------- container-cards ---------*/
 
 /*--------- Connections-section ------*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243,244,244);
+}
+.items{
+   
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+
+    flex-wrap: wrap;
+     
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    border-radius: 50%;
+    width: 90px;
+   
+    
+}
+.items >svg{
+    padding-top:8px ;
+    padding-left: 5px;
+
+}
+.item-up *{
+    
+}
+.class{
+    border-radius: 4px;
+}
+.figma{
+    background-color: #E7EBEF;
+    color:#6E849D ;
+    padding: 3px;
+}
+.sketch{
+    background-color: #FFF2E1;
+    color:#FDAC41 ;
+    padding: 4px;
+}
+.email{
+    background: #E7EBEF;
+    color: #96a1ad;
+    
+}
+h3{
+    margin-top: 20px;
+}
+.item-up p{
+    margin-top: -13px;
+    font-size: 14px;
+}
+.item-up{
+    text-align: center;
+}
+.items-container{
+    padding: 10px;
+}
+.items{
+    position: relative;
+    width: 380px;
+    height: 400px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    border-radius: 6px;
+    
+    display: flex;
+    
+    flex-direction: column;    margin: 14px;
+    background-color: white;
+}
+.item-main *{
+    margin:15px 10px;
+}
+.item-main p{
+    text-align: center;
+}
+.item-up{
+    margin-top: -15px;
+}
+.class{
+    margin: 18px 5px;
+}
+.item-main{
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    margin-top: 50px;
+}
+.item-bottom{
+    text-align: center;
+    margin-top: 32px;
+}
+.item-bottom a{
+    padding:8px 12px;
+    align-content: center;
+    border-radius: 6px;
+}
+.email:hover{
+    background-color: #90A1B4;
+    color: white;
+}
+.motasel{
+    background-color: #7BA4F1;
+    color: white;
+}
+.motasel:hover{
+    background-color: #9fbef7;
+}
+.html{
+    background-color: #E5EDFC;
+    color:#6795F0 ;
+    padding: 4px;
+}
+.angolar{
+    background-color: #FFE5E5;
+    color:#FF6767 ;
+    padding: 4px;
+}
+.namotasel{
+    background-color: #E5EDFC;
+    color: #5A8DEE;
+}
+.namotasel:hover{
+    background-color: #7BA4F1;
+    color: white;
+}
+.react{
+    background-color: #D6F7FA;
+    color:rgb(9,209,222) ;
+    padding: 4px;
+}
+.fotoshop{
+    background-color: #E5EDFC;
+    color:#6A98F0 ;
+    padding: 4px;
+}
 
 /*------------------------- footer -------------------------*/
