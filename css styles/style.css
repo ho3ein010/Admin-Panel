@@ -38,6 +38,135 @@ ul {
 
 /*------------------------- header -------------------------*/
 
+header {
+    height: 62px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 263px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px 1px #e3e4e4;
+    background-color:#F3F4F4;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+/* search-box */
+header>div.search-box {
+    width: max-content;
+}
+
+header>div.search-box>a {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    color: #aeb9c4;
+}
+
+header>div.search-box>a>i::before {
+    content: "\e8b6";
+    padding: 3px;
+    color: #83919f;
+}
+
+header>div.search-box>a::after {
+    content: " جستجو (/+ctrl) ";
+    vertical-align: middle;
+}
+
+/*-------- icons-menu --------*/
+header>div.icons-menu {
+    width: max-content;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header>div.icons-menu>div {
+    position: relative;
+    cursor: pointer;
+    padding: 7px 0 0 7px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+header>div.icons-menu>div::after {
+    content: "";
+    display: inline-block;
+    padding: 4px;
+    bottom: 8px;
+    right: 1px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    background-color: #39DA8A;
+
+}
+
+header>div.icons-menu>div>img {
+    width: 38px;
+    height: max-content;
+    border-radius: 50%;
+}
+
+
+header>div.icons-menu>ul {
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: #83919f;
+}
+
+header>div.icons-menu>ul>li {
+    width: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div.icons-menu>ul>li>img {
+    width: 27px;
+    border-radius: 50%;
+}
+
+header>div.icons-menu>ul>li:nth-of-type(2)>i::before {
+    content: "\f159";
+}
+
+header>div.icons-menu>ul>li:nth-of-type(3)>i::before {
+    content: "\e9b0";
+}
+
+header>div.icons-menu>ul>li:nth-of-type(4)>i::before {
+    content: "\e7f7";
+}
+
+header>div.icons-menu>ul>li:nth-of-type(4)::after {
+    content: "5";
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 50;
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    top: 0px;
+    right: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FF5B5C;
+}
+
 
 /*------------------------- aside -------------------------*/
 
