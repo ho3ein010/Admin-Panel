@@ -178,6 +178,7 @@ aside {
     flex-direction: column;
     border-left: 1px solid #d0d0d0;
     background-color: #F3F4F4;
+    z-index: 1000;
 }
 
 /* title-list */
@@ -327,6 +328,13 @@ aside .list>ul>li a>p {
 }
 
 /*------------------------- main --------------------------*/
+main {
+    position: absolute;
+    right: 263px;
+    left: 0;
+    top: 62px;
+    z-index: 1;
+}
 /*--------- Address-bar ----------*/
 
 /*--------- Profile-cover ---------*/
