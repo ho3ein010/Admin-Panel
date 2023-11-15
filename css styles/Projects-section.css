@@ -18,7 +18,121 @@
 /*--------- Menu-sections ---------*/
 
 /*--------- container-cards ---------*/
-
+img{
+    border-radius: 50%;
+    width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+.container{
+    width: 1370px;
+    margin: auto;
+}
+.box-item3{
+    position: relative;
+    width: 797.328px;
+    height: 599.844px;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    box-shadow: 0 2px 14px rgba(38, 60, 85, 0.16);
+    flex: 0 auto;
+    margin: 14px;
+}
+.box-body{
+    padding:22px ;
+}
+.icone-box{
+    float: left;
+    margin-top: 2px;
+    cursor: pointer;
+ }
+ .t-b-3{
+    text-align: right;
+    display: inline-block;
+    cursor: pointer;
+    }
+    .t-b-3>img{
+        border-radius: 50%;
+        width: 20px;
+        display: inline-block;
+        margin-top: -30px;
+        vertical-align: middle;
+        
+    }
+    .t-b-3>h5{
+    font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-right: 10px;
+    }
+    p{
+        font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    }
+    .p-1{
+        font-family: inherit;
+    color: rgb(144, 152, 160);
+    font-size: 1rem;
+    font-weight: 1000;
+    margin-top: -15px;
+    }
+    .p-2{
+        font-family: inherit;
+    color: rgb(103, 119, 136);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    margin-top: -10px;
+    vertical-align: middle;
+    margin-right: 10px;
+    }
+    .p-3{
+        font-family: inherit;
+    color: rgb(144, 152, 160);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    margin-top: -10px;
+    vertical-align: middle;
+    margin-right: 50px;
+    }
+    .img-text{
+        padding: 10px;
+    }
+    .p-4{
+        font-family: inherit;
+    color: rgb(166, 170, 175);
+    font-size: 1rem;
+    font-weight: 1000;
+    display: inline-block;
+    float: left;
+    }
+    .img-main-text3{
+        width: 20px;
+        margin-right: 15px;
+    }
+    .img2-main-text3{
+        width: 25px;
+        cursor: pointer;
+    }
+    .p-5{
+        cursor: pointer;
+        margin-right: 8px;
+    }
+    .img3-main-text3{
+        width: 25px;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+    
 /*--------- Projects-Section ------*/
 
 /*------------------------- footer -------------------------*/
